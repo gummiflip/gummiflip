@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @gummiflip
-- 👀 I’m interested in Chat AI,Network, Android, Linux, kali
-- 🌱 I’m currently learning Konsole, cmd, Software 
+- 👀 I’m interested in Chat AI,Network mobile LTE- , Android, Linux, kali
+- 🌱 I’m currently learning Konsole, cmd, Software,CODE 
 - 📫 How to reach mehr gummifli@outlook.de
 
 <!---
