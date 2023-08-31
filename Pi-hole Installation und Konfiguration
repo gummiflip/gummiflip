@@ -1,0 +1,69 @@
+Natürlich! Hier ist eine kurze Zusammenfassung der Schritte, die wir durchgeführt haben:
+
+---
+
+### Pi-hole Installation und Konfiguration:
+
+1. **System aktualisieren**:
+   ```bash
+   sudo apt update && sudo apt upgrade -y
+   ```
+
+2. **Pi-hole installieren**:
+   ```bash
+   curl -sSL https://install.pi-hole.net | bash
+   ```
+
+3. **Pi-hole für das 192.168.178.0/24 Netzwerk konfigurieren**:
+   ```bash
+   sudo nano /etc/pihole/setupVars.conf
+   ```
+   Ergänzen Sie die Datei mit:
+   ```
+   CONDITIONAL_FORWARDING=1
+   CONDITIONAL_FORWARDING_IP=192.168.178.1
+   CONDITIONAL_FORWARDING_DOMAIN=local
+   CONDITIONAL_FORWARDING_REVERSE=178.168.192.in-addr.arpa
+   ```
+
+### Pi.Alert Installation und Konfiguration:
+
+1. **Notwendige Pakete installieren**:
+   ```bash
+   sudo apt install -y php sqlite3
+   ```
+
+2. **Pi.Alert herunterladen und installieren**:
+   ```bash
+   cd /var/www/html/
+   sudo git clone https://github.com/pucherot/Pi.Alert.git pialert
+   cd pialert
+   sudo ./install.sh
+   ```
+
+3. **IP-Bereiche in Pi.Alert konfigurieren**:
+   ```bash
+   cd /var/www/html/pialert
+   sudo mkdir config
+   sudo nano config/config.php
+   ```
+   Fügen Sie den Inhalt hinzu:
+   ```php
+   <?php
+
+   // Zu überwachende IP-Bereiche
+   $NETWORKS = array(
+       '192.168.0.1/24',    // Archer AX55
+       '192.168.178.0/24'  // Fritzbox
+   );
+
+   ?>
+   ```
+
+4. **Raspberry Pi neu starten**:
+   ```bash
+   sudo reboot
+   ```
+
+---
+
