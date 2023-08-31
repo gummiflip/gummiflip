@@ -1,7 +1,3 @@
-Natürlich! Hier ist eine kurze Zusammenfassung der Schritte, die wir durchgeführt haben:
-
----
-
 ### Pi-hole Installation und Konfiguration:
 
 1. **System aktualisieren**:
@@ -60,10 +56,10 @@ Natürlich! Hier ist eine kurze Zusammenfassung der Schritte, die wir durchgefü
    ?>
    ```
 
+
 4. **Raspberry Pi neu starten**:
    ```bash
    sudo reboot
    ```
 
----
 
