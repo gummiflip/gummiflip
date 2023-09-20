@@ -1,22 +1,17 @@
-Gummiflip/README.md
+🚀 Hallo Welt! Ich bin @gummiflip.
 
-🚀 Hello World! I'm @gummiflip.
+📍 Nordrhein-Westfalen, Deutschland | 🎂 38 Jahre alt
 
-🔍 Passions & Interests:
+🔍 Meine Hauptinteressen:
 
-    Artificial Intelligence & Chatbots: The future of communication and automation.
-    Android: The open ecosystem shaping the mobile world.
-    Linux: Captivated by its freedom and flexibility.
-    Kali: Diving deep into cybersecurity.
-    Proxmox: Streamlined virtualization and eager to learn more about it.
-    Server Management: Because every powerful application needs a solid backend.
-    Docker: Containerization is the buzzword of today.
-    Home Assistant: My journey to shape and optimize the smart home experience.
+🏠 **Home Assistant**: Meine Leidenschaft liegt darin, das ultimative Smart Home-Erlebnis zu gestalten und zu optimieren. Mit Home Assistant forme und personalisiere ich jeden Aspekt meines intelligenten Zuhauses.
 
-🛠 Current Learning Path:
+🖥️ **Proxmox**: Virtualisierung ist der Schlüssel zur Effizienz. Mit Proxmox habe ich die Möglichkeit, verschiedene Systeme nahtlos zu integrieren und zu verwalten, um die beste Leistung und Sicherheit zu gewährleisten.
 
-    Console & CMD: Grasping the basics and power of the black box.
-    Software Development: The magic of turning ideas into reality.
-    Code: The language of machines and my creativity.
+🛠 **Aktueller Lernpfad**:
 
-💌 Let's Connect! For inquiries, collaborations, or just a chat, reach out to me at: gummifli@outlook.de.
+Ich bin ständig auf der Suche nach neuen Technologien und Best Practices, um meine Kenntnisse in Home Assistant und Proxmox zu vertiefen und zu erweitern.
+
+💌 **Kontakt**:
+
+Für Anfragen, Zusammenarbeiten oder einfach nur zum Plaudern, erreichen Sie mich unter: gummifli@outlook.de.
